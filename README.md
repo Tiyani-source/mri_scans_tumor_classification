@@ -16,9 +16,11 @@ An end-to-end deep learning project for **brain MRI image classification**, buil
 
 ### YouTube Demo
 
-[![Watch the Demo](https://img.youtube.com/vi/tOXIGWK7OUg/0.jpg)](https://youtu.be/tOXIGWK7OUg)
+[![Watch the Demo](assets/thumbnail.png)](https://youtu.be/tOXIGWK7OUg)
 
-[![Dataset]()]([YOUR_DATASET_LINK](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset))
+### Dataset Link
+[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+
 ## 1. Project Structure
 
 ```
@@ -101,7 +103,7 @@ This fine-tuned model is the one deployed in the FastAPI backend and used by the
 
 The project follows a simple but production-aligned architecture that connects the React frontend, FastAPI backend, and the TensorFlow model into a single prediction pipeline.
 
-### 4.1 High-Level Flow
+### High-Level Flow
 
 ```text
 [ React Frontend ]
@@ -125,3 +127,19 @@ The project follows a simple but production-aligned architecture that connects t
         |
         | 6. Displays prediction + confidence to the user
 ```
+## 5. Quick Start
+
+## Backend (FastAPI)
+```
+cd api
+python main.py
+```
+
+## Frontend (React + Vite)
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Open: http://localhost:5173
