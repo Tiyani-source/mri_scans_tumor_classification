@@ -1,5 +1,4 @@
-# MRI Brain Tumor Classification (Portfolio Project)
-
+# MRI Brain Tumor Classification
 An end-to-end deep learning project for **brain MRI image classification**, built as a portfolio piece to demonstrate:
 
 - Computer vision & model development (baseline CNN + transfer learning)
